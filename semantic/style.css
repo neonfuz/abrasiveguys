@@ -11,6 +11,7 @@
 * html .clearfix             { zoom: 1; } /* IE6 */
 *:first-child+html .clearfix { zoom: 1; } /* IE7 */
 
+/* Regular style stuff */
 body {
     font-family: helvetica; /* TODO: Make generic*/
     max-width: 900px;
@@ -20,4 +21,16 @@ body {
 
 #slogan {
     display: block;
+}
+
+#advert > .left,.right {
+    width: 50%;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
 }
