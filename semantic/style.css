@@ -20,11 +20,12 @@ body {
     margin-top: 30px;
 }
 
+/* Stylize links */
 a         { font-weight: bold }
-a:link    { color: #00c }  /* unvisited links */
-a:visited { color: #00c }  /* visited links   */
-a:hover   { color: #0af }  /* user hovers     */
-a:active  { color: #00a }  /* active links    */
+a:link    { color: #00c }
+a:visited { color: #00c }
+a:hover   { color: #0af }
+a:active  { color: #00a }
 
 p {
     text-align: justify;
@@ -51,9 +52,12 @@ p {
 
 
 nav>.nav-item {
-    display: inline; }
+    display: inline;
+}
+
 nav>.nav-item+.nav-item:before {
-    content: " • "; }
+    content: " • ";
+}
 
 nav, #slogan {
     text-align: right;
@@ -65,14 +69,6 @@ nav, #slogan {
     font-weight: bold;
     display: block;
 }
-
-/*
-nav {
-    position: relative;
-    margin-left: -280px;
-    text-align: right;
-}
-*/
 
 #logo {
     width: 300px;
