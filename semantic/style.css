@@ -17,11 +17,10 @@ body {
     max-width: 900px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 30px;
+    padding: 30px;
 }
 
 /* Stylize links */
-a         { font-weight: bold }
 a:link    { color: #00c }
 a:visited { color: #00c }
 a:hover   { color: #0af }
@@ -33,29 +32,32 @@ p {
     text-justify: inter-word;
 }
 
-#email {
+#contact {
+    padding-top: 40px;
     text-align: center;
-    padding: 30px;
-
 }
 
-#advert > .left {
+#contact>table {
+    margin-left: auto;
+    margin-right: auto; }
+.contact-right {
+    text-align: right; }
+.contact-left {
+    text-align: left; }
+
+.left {
     float: left;
     width: 50%;
     padding-right: 20px;
     box-sizing: border-box;
 }
 
-#advert > .right {
+.right {
     float: right;
     width: 50%;
     padding-left: 20px;
     box-sizing: border-box;
 }
-
-
-/* Style 1 */
-
 
 .bullet-item {
     display: inline;
@@ -64,36 +66,15 @@ p {
     content: " • ";
 }
 
-
-/* Style 2 */
-
-/*
-nav>.nav-item {
-    display: block; }
 nav {
-    position: absolute;
-    right: 50vw;
-    margin-right: 470px;
-    top: 300px; }
-*/
-
-
-nav {
+    font-weight: bold;
     text-align: center;
     line-height: 1.5em;
     padding: 30px;
 }
 
-#slogan {
-    margin-top: 1em;
-    font-weight: bold;
-    display: block;
-}
-
 #logo {
-/*    width: 300px;*/
     width: 100%;
-    margin-left: 30px;
 }
 
 .list-head {
@@ -101,9 +82,6 @@ nav {
     margin-bottom: .5em;
 }
 
-#contact-info {
-/*    background: #F00;*/
-    float: right;
-    text-align: left;
-    padding: 30px;
+#exampleproduct {
+    width: 100%;
 }

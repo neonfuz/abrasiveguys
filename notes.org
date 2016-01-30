@@ -6,9 +6,10 @@
 ** Updated paragraphs
  - Removed note on new website
 * Partners
-** TODO Remove
- - not removed yet
+** DONE Remove
  - http://www.toolguy.com/
  - https://www.drillbitwarehouse.com/
 ** TODO Add
 
+* Todo
+** TODO Ask about removing partners
