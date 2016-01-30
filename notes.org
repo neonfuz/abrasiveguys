@@ -1,0 +1,14 @@
+* Old stuff
+** Slogan
+ - We're the "Abrasive Guys", We've Ground the Competition Out!
+** Mail
+ - Abrasive Guy on Call
+** Updated paragraphs
+ - Removed note on new website
+* Partners
+** TODO Remove
+ - not removed yet
+ - http://www.toolguy.com/
+ - https://www.drillbitwarehouse.com/
+** TODO Add
+

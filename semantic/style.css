@@ -28,12 +28,15 @@ a:hover   { color: #0af }
 a:active  { color: #00a }
 
 p {
+    margin-top: 0;
     text-align: justify;
     text-justify: inter-word;
 }
 
 #email {
     text-align: center;
+    padding: 30px;
+
 }
 
 #advert > .left {
@@ -51,17 +54,34 @@ p {
 }
 
 
-nav>.nav-item {
+/* Style 1 */
+
+
+.bullet-item {
     display: inline;
 }
-
-nav>.nav-item+.nav-item:before {
+.bullet-item+.bullet-item:before {
     content: " • ";
 }
 
-nav, #slogan {
-    text-align: right;
+
+/* Style 2 */
+
+/*
+nav>.nav-item {
+    display: block; }
+nav {
+    position: absolute;
+    right: 50vw;
+    margin-right: 470px;
+    top: 300px; }
+*/
+
+
+nav {
+    text-align: center;
     line-height: 1.5em;
+    padding: 30px;
 }
 
 #slogan {
@@ -71,6 +91,19 @@ nav, #slogan {
 }
 
 #logo {
-    width: 300px;
+/*    width: 300px;*/
+    width: 100%;
     margin-left: 30px;
+}
+
+.list-head {
+    margin-left: -40px;
+    margin-bottom: .5em;
+}
+
+#contact-info {
+/*    background: #F00;*/
+    float: right;
+    text-align: left;
+    padding: 30px;
 }
