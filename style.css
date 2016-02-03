@@ -4,6 +4,7 @@ body {
     max-width: 900px;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 30px;
 }
 
 /* Main positioning and padding*/
@@ -12,7 +13,6 @@ body {
     padding-left: 30px;
     padding-right: 30px;
 }
-header { padding-top: 20px; }
 img { width: 100%; }
 p {
     margin-top: 0; /* Make paragraph line up nicely in grid*/
@@ -67,7 +67,7 @@ nav {
     margin-bottom: .5em;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
     .left, .right {
         float: none;
         width: 100%;
@@ -81,9 +81,5 @@ nav {
 
         padding-left: -30px;
         padding-right: -30px;
-    }
-
-    body {
-        padding-top: 20px;
     }
 }
