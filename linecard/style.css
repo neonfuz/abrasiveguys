@@ -1,0 +1,41 @@
+body {
+    font-family: bebasneue;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+header {
+    margin-top: 1vw;
+    margin-bottom: 2vw;
+}
+
+#logo    { width: 70vw; }
+#contact { width: 29vw; }
+
+#contact {
+    font-weight: bold;
+    float: right;
+    text-align: center;
+    line-height: 1.5em;
+    margin-top: 2em;
+    font-size: 1.5vw;
+}
+
+#slogan {
+    font-size: 3vw;
+    text-align: center;
+    text-transform: uppercase;
+    clear: both;
+}
+
+#slogan > span {
+    background: black;
+    color: white;
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+
+@font-face {
+    font-family: bebasneue;
+    src: url("/bebasneue.otf");
+}
