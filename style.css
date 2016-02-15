@@ -81,7 +81,7 @@ dd {
     border: 2px solid #666;
 }
 
-#content {
+main {
     max-width: 960px;
     padding-left: 30px;
     padding-right: 30px;
@@ -116,7 +116,7 @@ nav > hr {
     margin-bottom: 15px;
 }
 
-#content {
+main {
     margin-top: 10px;
 }
 
@@ -132,7 +132,7 @@ nav > hr {
         margin: 1em;
     }
 
-    #content, nav {
+    main, nav {
         padding-left: 0;
         padding-right: 0;
         padding-top: 0;
