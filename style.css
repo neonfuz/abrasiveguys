@@ -1,4 +1,5 @@
-/* Regular style stuff */
+/* Main styling */
+
 body {
     font-family: helvetica; /* TODO: Make generic*/
     max-width: 960px;
@@ -9,6 +10,32 @@ body {
     background: url("images/background.png");
 }
 
+h1 {
+    margin: 0;
+}
+
+h2 {
+    font-size: 16px;
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+img {
+    width: 100%;
+}
+
+p {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+a:link    { color: #00c }
+a:visited { color: #00c }
+a:hover   { color: #0af }
+a:active  { color: #00a }
+
+/* Layout */
+
 #container {
     padding: 30px;
     background: #EEE;
@@ -17,12 +44,6 @@ body {
     border: 2px solid #666;
 }
 
-header > h1 {
-    margin-top: 0;
-    margin-bottom: 0;
-} /* Remove extra h1 padding */
-
-/* Main positioning and padding*/
 #content {
     max-width: 960px;
     padding-left: 30px;
@@ -30,18 +51,10 @@ header > h1 {
     padding-top: 1em;
     overflow: hidden;
 }
-img { width: 100%; }
-p {
-    margin-top: 0; /* Make paragraph line up nicely in grid*/
-    text-align: justify;
-    text-justify: inter-word;
-}
 
-/* Stylize links */
-a:link    { color: #00c }
-a:visited { color: #00c }
-a:hover   { color: #0af }
-a:active  { color: #00a }
+p {
+    margin-top: 0; /* Make paragraph line up nicely in grid */
+}
 
 #exampleproduct {
     box-shadow: 0 0 10px #888888;
@@ -92,11 +105,6 @@ nav > hr {
 
 #content {
     margin-top: 10px;
-}
-
-.list-head {
-    margin-left: -40px;
-    margin-bottom: .5em;
 }
 
 @media only screen and (max-width: 960px) {
