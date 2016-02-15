@@ -1,0 +1,88 @@
+body {
+    background: #EEE;
+    font-family: helvetica;
+    margin-left: 0;
+}
+
+header {
+    top: 0;
+    position: fixed;
+    background: #eee;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 100px;
+    box-shadow: 0 0 5px black;
+    height: 120px;
+}
+
+header > h1 {
+    margin: 0;
+}
+
+#logo {
+    width: 30%;
+}
+
+#content {
+    margin-top: calc(120px + 2em);
+    margin-left: 5ex;
+    margin-right: 5ex;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 3em;
+    width: 100%;
+}
+
+#about-us, #partners {
+    width: 60%;
+    padding-right: 30px;
+}
+
+#exampleproduct, contact {
+    width: 40%;
+}
+
+#content > p {
+    text-align: justify;
+    text-justify: inter-word;
+
+}
+
+nav {
+    font-size: 24px;
+}
+
+.bullet-item {
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+@font-face {
+    font-family: bebasneue;
+    src: url("/abrasiveguys/bebasneue.otf");
+}
+
+/* Stylize links */
+a:link    { color: #00c }
+a:visited { color: #00c }
+a:hover   { color: #0af }
+a:active  { color: #00a }
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+	}
+* html .clearfix             { zoom: 1; } /* IE6 */
+*:first-child+html .clearfix { zoom: 1; } /* IE7 */
